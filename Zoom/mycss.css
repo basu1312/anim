@@ -1,0 +1,53 @@
+body
+{
+	background:url("lamborghini_aventador_lp_750_4_superveloce_2016-wallpaper-1366x768.jpg");
+}
+#content{
+    height:600px;
+	width:100%;
+	margin-top:100px;
+	}
+ul{
+	padding: 50px 0px;
+	margin: 0 auto;
+	position: relative;
+	background-color:olive;
+	width: 500px;
+	height: 380px;
+	border-radius: 250px;
+	transition:all 0.5s ease-in-out;
+	opacity:0.3;
+}
+ul:hover{
+
+	background-color:brown;
+	opacity:0.6;
+}
+ul li{
+	font-size: 40px;
+	display: block;
+	line-height: 66px;
+}
+ul li a{
+	white-space: nowrap;
+	color:#E4DEBA;
+    display: block;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 3px #fff;
+	letter-spacing: 1px;
+	transform: scale(0.7);
+	transition: all 0.4s linear;
+	text-decoration:none;
+}
+ul:hover li a{
+	opacity:0.5;
+	color:gold;
+}
+ul li a:hover{
+	text-shadow: none;
+	color:bronze;
+	transform: scale(1);
+	opacity:1;
+   	
+}
